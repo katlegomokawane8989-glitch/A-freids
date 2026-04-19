@@ -32,7 +32,7 @@ module.exports = {
     const freeMem = os.freemem() / 1024 / 1024;
     const usedMem = totalMem - freeMem;
 
-    const prefix = global.GoatBot.config.PREFIX || "/";
+    const prefix = global.GoatBot.config.PREFIX || "%";
     const totalThreads = await threadsData.getAll().then(t => t.length);
     const totalCommands = global.GoatBot.commands.size;
 
