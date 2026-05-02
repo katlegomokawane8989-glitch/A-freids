@@ -17,7 +17,7 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "61584608305717","100063239341269"],
+    "61584608305717","100068914723350"],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
@@ -26,7 +26,7 @@
   "nickNameBot": "💧 一 Ȝvııl Smııle丨倫💧",
   "prefix": "%",
   "database": {
-    "type": "sqlite",
+    "type": "mangodb",
     "uriMongodb": "",
     "autoSyncWhenStart": false,
     "autoRefreshThreadInfoFirstTime": true,
